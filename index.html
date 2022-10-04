@@ -23,7 +23,7 @@
                 <name>Qiqi Hou</name>
               </p>
               <p>
-                I am a 4th-year PhD student at  <a href="http://graphics.cs.pdx.edu/">Computer Graphics and Vision Lab</a> of <a href="https://www.pdx.edu/">Portland State University</a>. My supervisor is <a href="http://web.cecs.pdx.edu/~fliu/">Feng Liu</a>. I am interested in computer vision, computer graphics and image processing. Much of my current research is about the applications of deep learning, such as matting, frame interpolation, Monte Carlo rendering, face landmark detection and etc. I received my M.E. and B.E degrees from Xi'an Jiaotong University in 2014 and 2017, respectively, where I was advised by <a href="http://gr.xjtu.edu.cn/web/jinjun/english;jsessionid=62778B82EE999047FE09E2708CAEA609">Jinjun Wang</a>. 
+                I am a 6th-year PhD student at  <a href="http://graphics.cs.pdx.edu/">Computer Graphics and Vision Lab</a> of <a href="https://www.pdx.edu/">Portland State University</a>. My supervisor is <a href="http://web.cecs.pdx.edu/~fliu/">Feng Liu</a>. I am interested in computer vision, computer graphics and image processing. Much of my current research is about the applications of deep learning, such as matting, frame interpolation, Monte Carlo rendering, face landmark detection and etc. I received my M.E. and B.E degrees from Xi'an Jiaotong University in 2014 and 2017, respectively, where I was advised by <a href="http://gr.xjtu.edu.cn/web/jinjun/english;jsessionid=62778B82EE999047FE09E2708CAEA609">Jinjun Wang</a>. 
               </p>
               <p style="text-align:center">
                 <a href="mailto:qiqi2@pdx.edu">Email</a> &nbsp/&nbsp
@@ -46,8 +46,50 @@
             </td>
           </tr>
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ff_image'>
+                  <img src='papers/vfips/vfips.png' width="250"></div>
+                <img src='papers/vfips/vfips.png' width="250">
+              </div>
+              <script type="text/javascript">
+                function ff_start() {
+                  document.getElementById('ff_image').style.opacity = "1";
+                }
+
+                function ff_stop() {
+                  document.getElementById('ff_image').style.opacity = "0";
+                }
+                ff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://web.cecs.pdx.edu/~qiqi2/files/papers/vfips/ECCV2022_Qiqi_VideoQualityMetric_CameraReady.pdf">
+                <papertitle>A Perceptual Quality Metric for Video Frame Interpolation</papertitle>
+              </a>
+              <br>
+              <strong>Qiqi Hou</strong>, 
+              Abhijay Ghildyal, 
+              <a href="http://web.cecs.pdx.edu/~fliu/">Feng Liu</a>
+              <br>
+              <em>ECCV</em>, 2022 &nbsp <font color=#FF8080></font>
+              <br>
+              <a href="https://web.cecs.pdx.edu/~qiqi2/files/papers/vfips/ECCV2022_Qiqi_VideoQualityMetric_CameraReady.pdf">paper</a> /
+              <a href="https://github.com/hqqxyy/VFIPS">code</a> /
+              <a href="https://github.com/hqqxyy/VFIPS/blob/main/exp/eccv_ms_multiscale_v33/model.pytorch">model</a> /
+              <a href="https://github.com/hqqxyy/VFIPS">data</a> /
+              <a href="https://github.com/hqqxyy/VFIPS/blob/main/exp/eccv_ms_multiscale_v33/test_dmos.pkl">result</a> /
+              <a href="https://web.cecs.pdx.edu/~qiqi2/files/papers/vfips/poster.pdf">poster</a> /
+              <a href="https://web.cecs.pdx.edu/~qiqi2/files/papers/vfips/Video_Demo_Final.mp4">3min-demo</a> 
+              <p></p>
+              <p>We propose a perceptual quality metric dedicated to video frame interpolation.</p>
+            </td>
+          </tr> 
+
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> -->
           <tr onmouseout="ff_stop()" onmouseover="ff_start()">
             <td style="padding:20px;width:35%;vertical-align:middle">
               <div class="one">
@@ -267,7 +309,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:middle;font-size:small;">
-                Last updated: Sep, 2020. Template from <a href="https://github.com/jonbarron/jonbarron_website">here</a>.
+                Last updated: Oct, 2022. Template from <a href="https://github.com/jonbarron/jonbarron_website">here</a>.
               </p>
             </td>
           </tr>
