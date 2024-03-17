@@ -56,6 +56,49 @@
             <td style="padding:20px;width:35%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='ff_image'>
+                  <img src='papers/llss/llss.png' width="250"></div>
+                <img src='papers/llss/llss.mp4' width="250">
+              </div>
+              <script type="text/javascript">
+                function ff_start() {
+                  document.getElementById('ff_image').style.opacity = "1";
+                }
+
+                function ff_stop() {
+                  document.getElementById('ff_image').style.opacity = "0";
+                }
+                ff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="papers/llss/paper.pdf">
+                <papertitle>Low-Latency Neural Stereo Streaming</papertitle>
+              </a>
+              <br>
+              <strong>Qiqi Hou</strong>, 
+              Farzad Farhadzadeh, 
+              Amir Said, 
+              <a href="https://naifrec.github.io/">Guillaume Sautiere</a>, 
+              <a href="https://www.hoangle.net/">Hoang Le</a>
+              <br>
+              <em>CVPR</em>, 2024 &nbsp <font color=#FF8080></font>
+              <br>
+              <a href="papers/llss/paper.pdf">paper</a> /
+              <a href="papers/llss/paper_supp.pdf">supp</a> /
+              <a href="papers/llss/video-demo.mp4">video-demo</a> 
+              <p></p>
+              <p>We presents a parallel stereo video codec designed for fast and efficient low-latency stereo video streaming.</p>
+            </td>
+          </tr> 
+
+
+
+          
+
+          <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ff_image'>
                   <img src='papers/fastbuffer/fig1.png' width="250"></div>
                 <img src='papers/fastbuffer/fig1.png' width="250">
               </div>
