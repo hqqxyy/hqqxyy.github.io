@@ -52,6 +52,48 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
+          <tr onmouseout="ngtc_stop()" onmouseover="ngtc_start()">
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ngtc_image'>
+                  <img src='papers/ngtc/fig1.png' width="250"></div>
+                <img src='papers/ngtc/fig1.png' width="250">
+              </div>
+              <script type="text/javascript">
+                function fastbuffer_start() {
+                  document.getElementById('ngtc_image').style.opacity = "1";
+                }
+
+                function fastbuffer_stop() {
+                  document.getElementById('ngtc_image').style.opacity = "0";
+                }
+                fastbuffer_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2407.00021">
+                <papertitle>Neural Graphics Texture Compression Supporting Random Access</papertitle>
+              </a>
+              <br>
+              Farzad Farhadzadeh, 
+              <strong>Qiqi Hou</strong>, 
+              <a href="https://www.hoangle.net/">Hoang Le</a>
+              Amir Said, 
+              <a href="https://scholar.google.com/citations?user=OpRCX34AAAAJ&hl=en">Randall Rauwendaal</a>,
+              Alex Bourd,
+              <a href="https://www.porikli.com/">Fatih Porikli</a>
+              <br>
+              <em>ECCV</em>, 2024 &nbsp <font color=#FF8080></font>
+              <br>
+              <a href="https://arxiv.org/pdf/2407.00021">arxiv</a> /
+              <p></p>
+              <p>We propose an asymmetric auto-encoder to compress the graphics texture.</p>
+            </td>
+          </tr> 
+
+
+
           <tr onmouseout="llss_stop()" onmouseover="llss_start()">
             <td style="padding:20px;width:35%;vertical-align:middle">
               <div class="one">
