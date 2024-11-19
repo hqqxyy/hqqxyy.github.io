@@ -1311,7 +1311,7 @@
             this.xi = 0
         }
         ci() {
-            this.Mi = new Worker("proj/gaussians/gs_website/worker.js"),
+            this.Mi = new Worker("/proj/gaussians/gs_website/worker.js"),
             this.Mi.onmessage = this.Qi.bind(this),
             this.Mi.Ki = !0,
             this.Mi.postMessage({
